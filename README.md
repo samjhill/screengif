@@ -24,5 +24,5 @@ You simply pass in a movie file: `screengif cats.mov` and it will create a gif w
 brew install fswatch
 
 Add an alias: <br />
-Bash - in your `~./bash_profile` file: `./usr/local/bin/watch.sh /Users/sam.hill/Documents/screengif &` <br />
-ZSH - in your `~/.zshrc` file: `./usr/local/bin/watch.sh /Users/sam.hill/Documents/screengif &`
+Bash - in your `~./bash_profile` file: `bash /usr/local/bin/watch.sh /Users/sam.hill/Documents/screengif &` <br />
+ZSH - in your `~/.zshrc` file: `bash /usr/local/bin/watch.sh /Users/sam.hill/Documents/screengif &`
