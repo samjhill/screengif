@@ -1,5 +1,5 @@
 # screengif
-Easy shortcut for creating a gif from a screen recording. 
+Easy shortcut for creating a gif from a screen recording. I use it a lot for demonstrating UI work and attaching it to a Github PR.
 
 Based on this Gist:
 https://gist.github.com/dergachev/4627207
