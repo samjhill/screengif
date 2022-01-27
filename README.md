@@ -10,13 +10,19 @@ brew install ffmpeg <br />
 brew install --cask xquartz #dependency for gifsicle, only required for moutain-lion and above <br />
 brew install gifsicle
 
-Download and move `screengif.sh` to your `/usr/local/bin`
-
-in `/usr/local/bin` run `chmod +x screengif.sh`
+Run `./install.sh`
 
 Add an alias: <br />
 Bash - in your `~./bash_profile` file: `alias screengif='screengif.sh'` <br />
-ZSH - in your `~.zshrc` file: `alias screengif='screengif.sh'`
+ZSH - in your `~/.zshrc` file: `alias screengif='screengif.sh'`
 
 # Usage
 You simply pass in a movie file: `screengif cats.mov` and it will create a gif with the same name in the same directory.
+
+# Run automatically when you save a new screen recording
+
+brew install fswatch
+
+Add an alias: <br />
+Bash - in your `~./bash_profile` file: `./usr/local/bin/watch.sh /Users/sam.hill/Documents/screengif &` <br />
+ZSH - in your `~/.zshrc` file: `./usr/local/bin/watch.sh /Users/sam.hill/Documents/screengif &`
